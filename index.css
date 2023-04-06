@@ -7,3 +7,63 @@ body {
     padding: 0;
 }
 
+@font-face {
+    font-family: "Wonder";
+    src: url("/assets/fuente/Wonderbar\ Demo.otf");
+}
+
+#carrousel_landing .carousel-inner img {
+    max-width: 1920px;
+    height: 1000px;
+}
+
+#titulo h1{
+    font-size: 100px;
+    position: absolute;
+    z-index: 5;
+    color: white;
+    margin-top: 25rem;
+    margin-left: 45rem;
+    font-family: "Wonder";
+}
+
+#nav-var .container a {
+    font-family: "Wonder";
+    text-decoration: none;
+    font-size: 2.5rem;
+    color: #76523c;
+}
+
+#nav-var button {
+    font-size: 20px;
+}
+
+#empresa {
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+    padding-left: 1rem; 
+    padding-right: 5rem;
+    /* background-image: url("/assets/imagenes/background.png"); */
+    background-color: #5a423c;
+}
+
+#empresa p {
+    font-size: 20px;
+   padding-left: 5rem;
+    text-align: start;
+    color: white;
+}
+
+#empresa img {
+    margin-left: 3rem;
+    max-width: 600px; border-radius: 1%;
+    box-shadow: 1px 17px 58px 3px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 1px 17px 58px 3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 17px 58px 3px rgba(0,0,0,0.75);
+    position: relative;
+    display: inline-block; /* o block, según necesidades de diseño */
+    transition: transform 0.3s ease-in-out; /* Agregamos una transición suave para el efecto */
+} 
+#empresa img:hover, img.ampliada {
+    transform: scale(1.1); /* Cambiamos la escala de la imagen en un 10% cuando el mouse pasa por encima o cuando tiene la clase .ampliada */
+}
