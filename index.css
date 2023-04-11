@@ -9,7 +9,7 @@ body {
 
 @font-face {
     font-family: "Wonder";
-    src: url("/assets/fuente/Wonderbar\ Demo.otf");
+    src: url("assets/fuente/Wonderbar\ Demo.otf");
 }
 
 #carrousel_landing .carousel-inner img {
