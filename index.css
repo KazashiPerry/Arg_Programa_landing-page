@@ -103,3 +103,14 @@ body {
     font-family: 'Poppins', sans-serif;
     color: black !important; 
 }
+
+#form_contac img {
+    width: 90%;
+    border-radius: 1%;
+}
+
+#form_contac {
+    font-family: 'Poppins', sans-serif;
+}
+
+
