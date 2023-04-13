@@ -78,7 +78,28 @@ body {
     font-size: 25px;
 }
 
+#segundo_layer img{
+    width: 80%;
+    border-radius: 1%;
+}
+
+#segundo_layer p {
+    margin-bottom: 3rem;
+    font-size: 23px;
+    font-family: 'Poppins', sans-serif;
+}
 
 .jumbotron {
+    position: relative;
+    z-index: 5;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-color: black;
+}
 
+.jumbotron h1 {
+    font-family: 'Poppins', sans-serif;
+    color: black !important; 
 }
