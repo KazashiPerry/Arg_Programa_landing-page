@@ -21,9 +21,16 @@ body {
     font-size: 100px;
     position: absolute;
     z-index: 5;
-    color: white;
+    color: #36211b;
     font-family: "Wonder";
     margin-top: 25rem;
+    background-color: #ffffff10;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    padding: 2rem;
+    border-radius: 10% / 50%;
+    -webkit-text-stroke: 0.2rem #020101; /* Tamaño y color del contorno */
+    text-stroke: 1rem, #020101; /* Tamaño y color del contorno */
 }
 #nav-var {
     font-family: 'Poppins', sans-serif;
@@ -37,7 +44,7 @@ body {
 }
 #nav-var a {
     text-decoration: none;
-    color: #76523c;
+    color: #36211b;
     font-size: 1.8rem;
 }
 
@@ -85,7 +92,7 @@ body {
 
 #segundo_layer p {
     margin-bottom: 3rem;
-    font-size: 23px;
+    font-size: 1.5rem;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -114,3 +121,40 @@ body {
 }
 
 
+.shokolat {
+    font-family: "Wonder";
+    color: #76523c;
+}
+
+.icon_nav {
+    font-size: 2.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    color: #36211b;
+    transition: transform 0.3s, border-color 0.3s; /* Transiciones para suavizar el efecto */
+    cursor: pointer; /* Cambia el cursor a un puntero al pasar sobre el elemento */
+}
+
+.icon_nav:hover {
+    transform: scale(1.05); /* Escala el elemento al 105% del tamaño original */
+    border-bottom: 2px solid #36211b; /* Añade un borde inferior de 2px de ancho con el color deseado */
+  }
+
+  #participantes {
+    padding-top: 2rem;
+  }
+
+#participantes .card {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+}
+
+#participantes .card-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+
+}
+
+#form_contac {
+    font-size: 1.5rem;
+}

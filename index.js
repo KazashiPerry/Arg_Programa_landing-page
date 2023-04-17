@@ -35,23 +35,3 @@
 
 
 
-//imagen 1 animación
-
-const miElemento = document.querySelector('.primer-img');
-
-const callback = function(entries, observer) {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      entry.target.classList.add('animate__fadeInRight'); // Agrega la clase de animación
-      observer.unobserve(entry.target); // Deja de observar el elemento después de la animación
-    }
-  });
-};
-
-const options = {
-  threshold: 0.2 // Porcentaje de visibilidad del elemento en la ventana para activar la animación
-};
-
-const observer = new IntersectionObserver(callback, options);
-
-observer.observe(primer-img); // Comienza a observar el elemento

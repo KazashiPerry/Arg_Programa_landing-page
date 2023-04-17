@@ -7,9 +7,13 @@
     <!--Javascript-->
     <script src="index.js"></script>
     <!--CSS-->
+    <link rel="stylesheet" href="card.css">
     <link rel="stylesheet" href="index.css" />
     <!--Bootstrap-->
-
+    <link
+      rel="icon"
+      href="https://imgs.search.brave.com/CBA47b2nmD4TOeI0Ozo3Hat2T1fOCGIA4RzQWeGxaOA/rs:fit:666:1000:1/g:ce/aHR0cHM6Ly9pbWFn/ZXMucmF3cGl4ZWwu/Y29tL2ltYWdlX3Bu/Z19zb2NpYWxfcG9y/dHJhaXQvY3pObWN5/MXdjbWwyWVhSbEwz/SmhkM0JwZUdWc1gy/bHRZV2RsY3k5M1pX/SnphWFJsWDJOdmJu/UmxiblF2YW05aU1q/UXdMV3BwYm1jdE1U/a3VjRzVuLnBuZz9z/PXdIcHVFZ2txczBE/VFNvYTlWWnRaYnRu/T1E1bDQzbWxzVlBa/ZnVqTDZWUnc"
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -23,6 +27,9 @@
     ></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
+    <!--Bootstrap icon-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+   
     <!--Animate JS-->
     <link
       rel="stylesheet"
@@ -38,7 +45,7 @@
       data-bs-interval="6000"
     >
       <div id="titulo" class="d-flex justify-content-center">
-        <h1>shokolAt</h1>
+        <h1 class="animate__animated animate__fadeIn">shokolAt</h1>
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active" style="overflow: hidden">
@@ -92,18 +99,16 @@
           class="collapse navbar-collapse justify-content-end"
           id="navbarNav"
         >
-          <button type="button" class="btn" style="background-color: #76523c">
-            <a style="color: white" href="#carrousel_landing">Inicio</a>
+          <button type="button" class="btn" style="background-color: #36211b">
+            <a style="color: white" href="carrito.html">Productos</a>
+
           </button>
-          <button type="button" class="btn" style="color: #76523c">
-            <a href="#empresa">Empresa</a>
-          </button>
-          <button type="button" class="btn" style="color: #76523c">
-            <a href="#segundo_layer">Nosotros</a>
-          </button>
-          <button type="button" class="btn" style="color: #76523c">
-            <a href="#form_contac">Contacto</a>
-          </button>
+          <a href="#empresa"><i class="bi bi-building-fill icon_nav"></i></a>
+          
+          <a href="#segundo_layer"><i class="bi bi-people-fill icon_nav"></i></a>
+
+          <a href="#form_contac"><i class="bi bi-envelope-at-fill icon_nav"></i></a>
+          
         </div>
       </div>
     </nav>
@@ -140,7 +145,7 @@
               artesanales. Con dedicación y amor por el oficio, comenzamos a
               elaborar exquisitos chocolates en forma rústica, con ingredientes
               de la más alta calidad y un cuidado artesanal en cada detalle. Con
-              el paso del tiempo, Shokolat fue creciendo y evolucionando. Con la
+              el paso del tiempo, <span class="shokolat">ShokolAt</span> fue creciendo y evolucionando. Con la
               visión de llevar nuestros deliciosos chocolates a más personas,
               nos embarcamos en un viaje de modernización. Mantuvimos nuestros
               valores fundamentales de calidad y amor por la artesanía del
@@ -153,11 +158,11 @@
 
           <div class="col-lg-7 col-sm-12">
             <p>
-              Hoy, con orgullo, podemos decir que Shokolat es una empresa líder
+              Hoy, con orgullo, podemos decir que <span class="shokolat">ShokolAt</span> es una empresa líder
               en la fabricación de chocolates y derivados en Argentina. Nuestros
               productos son reconocidos por su sabor exquisito y su presentación
               impecable, lo que nos ha ganado la admiración y la lealtad de
-              nuestros clientes. En Shokolat, creemos que el chocolate es más
+              nuestros clientes. En <span class="shokolat">ShokolAt</span>, creemos que el chocolate es más
               que un simple dulce. Es una experiencia que despierta emociones y
               genera momentos especiales. Nos apasiona crear delicias de
               chocolate que deleiten a los sentidos y hagan sonreír a las
@@ -172,7 +177,7 @@
           <div class="primer_img col-lg-5 col-sm-12" style="">
             <img
               src="assets/imagenes/cocinero.JPG"
-              class="animate__animated"
+              class="animate__animated animate__fadeInRight"
               alt=""
             />
           </div>
@@ -190,12 +195,12 @@
             <p>
               Pero no solo nos preocupamos por la calidad de nuestros productos,
               también nos importa el impacto que tenemos en el mundo. En
-              Shokolat, nos comprometemos con prácticas sostenibles y
+              <span class="shokolat">ShokolAt</span>, nos comprometemos con prácticas sostenibles y
               responsables en nuestra producción, promoviendo la agricultura
               responsable y apoyando a las comunidades locales. Estamos
               orgullosos de nuestra historia, de nuestro presente y de nuestro
               futuro. Esperamos que disfrutes explorando nuestra página web y
-              descubriendo todo lo que Shokolat tiene para ofrecer. Te invitamos
+              descubriendo todo lo que <span class="shokolat">ShokolAt</span> tiene para ofrecer. Te invitamos
               a unirte a nuestra comunidad de amantes del chocolate y a
               compartir con nosotros la pasión por esta deliciosa y dulce
               aventura.
@@ -210,7 +215,7 @@
       <div class="p-5 text-center bg-body-tertiary">
         <div class="container py-5">
           <h1 class="text-body-emphasis text-light">
-            ¡Bienvenidos a Shokolat, donde la magia del chocolate cobra vida!
+            ¡Bienvenidos a <span class="shokolat">ShokolAt</span>, donde la magia del chocolate cobra vida!
           </h1>
         </div>
       </div>
@@ -221,10 +226,29 @@
       <div class="row justify-content-center align-items-center">
         <div class="col-lg-6 col-sm-12">
           <p>
-            Actualmente trabajamos con un gran equipo de personas que dar su mejor esfuerzo para que puedan disfrutar de nuestros chocolates. Nuestro equipo está formado por Charly, Alison, Megan,  Nicole y Fredy. Quienes se encargan de dar seguimiento y codinar nuestras actividades diarias. Charly, Alison junto con Megan son quienes se encargan de dar seguimiento a nuestros clientes y Nicole unto con Fredy se encargan de dar seguimiento a la producción. Nuestro equipo comenzó un día donde aprender a hacer chocolates para disgustar entre nosotros, se convirtió en una empresa la cual hoy tiene más de 50 trabajadores quienes nos acompañan día a día y hacen que podamos seguir creciendo cada vez más.
-            En esta empresa también forman partes nuestros grandes clientes que ponen todas su confianza en nosotros  y por eso siempre tenemos las puertas abiertas para quien quiera sumarse.
-            ¿Que esperas para formar parte de nuestro equipo?
-         </p>
+            En <span class="shokolat">ShokolAt</span>, el equipo trabaja en estrecha colaboración para
+            administrar la empresa de chocolate de manera exitosa. Cada uno de
+            los miembros del equipo cumple un rol importante en la empresa,
+            aprovechando sus habilidades y experiencia para contribuir al éxito
+            del negocio. Alejandro, con su profundo conocimiento en chocolatería
+            y tradición brasileña, lidera la creatividad en la creación de
+            nuevos productos y recetas únicas de chocolate. Lucas, con su
+            experiencia en producción y procesos, asegura que la producción sea
+            eficiente y que los productos sean de la más alta calidad, aplicando
+            su herencia brasileña en la elaboración de dulces. Sebastián, con su
+            meticuloso enfoque y habilidades heredadas de su familia canadiense,
+            se encarga de asegurar la calidad y el sabor excepcional de los
+            chocolates. Camila, con su experiencia en ingredientes y técnicas
+            tradicionales de chocolatería árabe, aporta un toque exótico a los
+            productos y asegura la autenticidad en la elaboración. Sofía, con su
+            pasión por el chocolate y su enfoque estético, se encarga de la
+            presentación de los productos, asegurando que cada bocado sea una
+            experiencia visualmente atractiva. Trabajando juntos, este equipo
+            diverso y talentoso se complementa entre sí, compartiendo ideas,
+            tomando decisiones y colaborando en cada aspecto del negocio para
+            asegurar el éxito de <span class="shokolat">ShokolAt</span> en el competitivo mercado de
+            chocolates.
+          </p>
         </div>
 
         <div
@@ -267,6 +291,68 @@
     <div class="jumbotron">
       <div class="p-1 text-center bg-body-tertiary">
         <div class="container py-5">
+          <h1 class="text-body-emphasis text-light">Participantes</h1>
+        </div>
+      </div>
+    </div>
+    <!--Jumbotron-->
+
+
+   <div class="container-fluid d-flex flex-wrap justify-content-around" id="participantes">
+<!------------------------->
+    <div class="card" style="width: 22rem;">
+      <img src="assets/participantes/par_1.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Sebastián Thompson</h5>
+        <p class="card-text">Sebastián es un apasionado amante del chocolate y ha heredado de su familia canadiense una gran habilidad en la elaboración de dulces. Con su enfoque meticuloso y su atención al detalle, Sebastián asegura que los chocolates de Shokolat sean de la mejor calidad posible.</p>
+        <div class="collapse" id="collapseExample">
+          <div class="card card-body">
+            Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+          </div>
+        </div>
+      </div>
+    </div>
+<!------------------------->
+<div class="card" style="width: 22rem;">
+  <img src="assets/participantes/par_2.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Alejandro Ferreira</h5>
+    <p class="card-text">Argentino con descendencia de Brasil, apasionado maestro chocolatero y co-fundador de Shokolat. Con un amor profundo por la chocolatería artesanal y la tradición brasileña en la elaboración de dulces, Alejandro trae una perspectiva única a la empresa y es conocido por su creatividad y habilidad en la creación de delicias de chocolate.</p>
+    
+  </div>
+</div>
+<!------------------------->
+<div class="card" style="width: 22rem;">
+  <img src="assets/participantes/par_3.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Camila Fernández</h5>
+    <p class="card-text">Mujer inmigrante de Arabia y experta en la producción de chocolates. Camila se unió a Shokolat con su vasto conocimiento sobre ingredientes y técnicas tradicionales de chocolatería, aportando un toque único y exótico a los productos de la empresa.</p>
+  </div>
+</div>
+<!------------------------->
+<div class="card" style="width:22rem;">
+  <img src="assets/participantes/par_4.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Lucas Santos</h5>
+    <p class="card-text">Argentino con ascendencia de Brasil, experto en producción y procesos de Shokolat. Lucas se unió a la empresa para implementar eficiencia en la producción y asegurar que los productos de Shokolat sean de la más alta calidad, combinando su experiencia en la chocolatería con su herencia brasileña.</p>
+  </div>
+
+</div>
+<!------------------------->
+<div class="card" style="width: 22rem;">
+  <img src="assets/participantes/par_5.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Sofía Gómez</h5>
+    <p class="card-text">Mujer con orígenes argentinos y franceses, apasionada amante del chocolate y experta en la presentación de los productos de Shokolat. Sofía se encarga de asegurar que cada bocado sea una experiencia visualmente atractiva y deliciosa, con su atención al detalle y su enfoque estético.</p>
+    
+  </div>
+</div>
+<!------------------------->
+   </div>
+    <!--Jumbotron-->
+    <div class="jumbotron">
+      <div class="p-1 text-center bg-body-tertiary">
+        <div class="container py-5">
           <h1 class="text-body-emphasis text-light">Contacto</h1>
         </div>
       </div>
@@ -276,7 +362,7 @@
     <!--Formulario-->
     <div class="p-5" id="form_contac">
       <div class="row justify-content-center">
-        <div class="col-lg-6">
+        <div class="col-lg-6" style="padding-bottom: 1.5rem;">
           <img src="assets/imagenes/mujer_amarillo.JPG" alt="" />
         </div>
         <div class="col-lg-6 form_check">
@@ -488,12 +574,14 @@
               </div>
 
               <div class="col-12">
-                <button class="btn btn-warning" type="submit">Enviar</button>
+                <button class="btn btn-warning" type="submit" style="font-size: 2rem;">Enviar</button>
               </div>
             </form>
           </div>
         </div>
       </div>
     </div>
+
+  
   </body>
 </html>
